@@ -30,3 +30,6 @@ message is using the HTTP protocol, else it is zero.
 dumpcap -i <interface> -w -| xxd -p| ./decap | ./netflowv9_builder
 
 ## TODO
+
+- Create Makefile
+- Cleanup compilation warnings
